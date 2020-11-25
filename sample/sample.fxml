@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <effect>
+      <Bloom threshold="0.0" />
+   </effect>
+   <children>
+      <ImageView fx:id="startgame" fitHeight="239.0" fitWidth="258.0" layoutX="178.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/start.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="365.0" fitWidth="579.0" layoutX="12.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/romb3.png" />
+
+         </image></ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="432.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/raznoe.png" />
+         </image>
+         <effect>
+            <InnerShadow height="255.0" radius="127.0" width="255.0" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="120.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/romb2.png" />
+         </image>
+      </ImageView>
+      <Label accessibleRole="BUTTON" layoutX="239.0" layoutY="180.0" prefHeight="40.0" prefWidth="136.0" text="START" textAlignment="CENTER" textFill="#378f50">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="34.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.05" height="9.53" radius="1.8824999999999998" width="0.0" />
+         </effect>
+      </Label>
+      <Button fx:id="knopkaexit" layoutX="20.0" layoutY="18.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="94.0" style="-fx-background-color: #4b3bff;" text="EXIT" textAlignment="CENTER">
+         <effect>
+            <InnerShadow height="216.87" radius="53.7175" width="0.0" />
+         </effect>
+         <font>
+            <Font name="Bank Gothic Medium BT" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="startgameK" layoutX="234.0" layoutY="180.0" mnemonicParsing="false" opacity="0.0" prefHeight="40.0" prefWidth="136.0" text="Button" />
+   </children>
+</AnchorPane>
