@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0">
+         <image>
+            <Image url="@../Game%20(1)/Game/src/sample/images/corona_dn.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="61.0" fitWidth="317.0" layoutX="142.0" layoutY="102.0">
+         <image>
+            <Image url="@imgonline-com-ua-Transparent-backgr-gETllIyiQ94nr0s.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="61.0" fitWidth="317.0" layoutX="142.0" layoutY="170.0">
+         <image>
+            <Image url="@imgonline-com-ua-Transparent-backgr-gETllIyiQ94nr0s.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="61.0" fitWidth="317.0" layoutX="142.0" layoutY="231.0">
+         <image>
+            <Image url="@imgonline-com-ua-Transparent-backgr-gETllIyiQ94nr0s.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="260.0" layoutY="111.0" prefHeight="44.0" prefWidth="81.0" text="Play">
+         <font>
+            <Font name="Bauhaus 93" size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="192.0" layoutY="178.0" text="Leaderboard">
+         <font>
+            <Font name="Bauhaus 93" size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="263.0" layoutY="240.0" text="Quit">
+         <font>
+            <Font name="Bauhaus 93" size="39.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
