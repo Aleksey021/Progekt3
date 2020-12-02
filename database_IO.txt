@@ -1,0 +1,21 @@
+Table authorization as U {
+  id_auth int [pk, increment] // auto-increment
+  login varchar(45)
+  password char(40)
+  name varchar(45)
+}
+
+Table example {
+  id_example int [pk]
+  example char(40)
+  answer int
+ }
+
+Table score {
+  id_score int
+  name varchar(45)
+  score int
+}
+
+
+Ref: "authorization"."name" < "score"."name"
