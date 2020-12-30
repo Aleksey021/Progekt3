@@ -1,0 +1,68 @@
+http://127.0.0.1:9000
+CreateReadUpdateDelete
+Read - GET
+Create - POST
+Update PUT*
+Delete - DELETE
+
+ 
+
+Auth
+GET http://127.0.0.1:9000/api/v1/auth/login?[email][password]
+JWT Token
+GET http://127.0.0.1:9000/api/v1/auth/logout : JWT Token
+GET http://127.0.0.1:9000/api/v1/auth/forgot?[email]
+send to email: new password
+POST http://127.0.0.1:9000/api/v1/auth/change-password?[email][old][new]
+
+ 
+
+User
+GET http://127.0.0.1:9000/api/v1/user/:id
+{name, photo}
+
+ 
+
+GET http://127.0.0.1:9000/api/v1/user
+{email, name, photo, lastaccess, modified, created}
+POST http://127.0.0.1:9000/api/v1/user
+{name, photo}
+
+ 
+
+Quiz
+GET http://127.0.0.1:9000/api/v1/quiz
+[
+{id, level, minlevel, name, created, createdby}
+]
+...
+get users by id
+
+ 
+
+POST, PUT http://127.0.0.1:9000/api/v1/quiz?[id]
+{level, minlevel, name}
+
+ 
+
+DELETE http://127.0.0.1:9000/api/v1/quiz?[id]
+check: createdby == user.id
+
+ 
+
+Quiz Item
+GET http://127.0.0.1:9000/api/v1/quiz-item?[quiz]
+[
+ {id, question, score, anwer, ag_instance}
+]
+
+ 
+
+GET,POST,PUT,DELETE http://127.0.0.1:9000/api/v1/quiz-item?[id]
+{id, question, score, anwer, ag_instance}
+
+ 
+
+STATISTICS
+GET http://127.0.0.1:9000/api/v1/statistics
+{quiz, score, status, started, finished}
