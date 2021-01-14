@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+body {
+    background-image: url("../background.jpg");
+    background-size: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    height: 100vh;
+
+    display: flex;
+    font-family: 'Nerko One', cursive;
+    font-size: 5em;
+}
+
+.main-content {
+    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-text {
+    width: 100%;
+    text-align: center;
+}
+
+.login-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-text {
+    text-align: center;
+    border-radius: 12px;
+    border: 5px solid #a5adb8;
+    background: linear-gradient(to right,#a7b2b4,#e7ebee 170px);
+    margin-bottom: 20px;
+    padding: 0 50px;
+    text-decoration: none;
+    color: #32332e;
+}
+.input-login {
+    display: flex;
+    align-content: center;
+    height: 40%;
+}
+
+.password-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-password {
+    display: flex;
+    align-content: center;
+    height: 40%;
+}
+
+input {
+    height: 100%;
+}
+
+.enter-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ----------------------------- */
+
+.h2-level {
+    font-size: 56px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: green;
+}
+
+.login-text2 {
+    text-align: center;
+    border-radius: 12px;
+    border: 5px solid #a5adb8;
+    background: linear-gradient(to right,#a7b2b4,#e7ebee 170px);
+    margin-bottom: 20px;
+    padding: 0 32px;
+    text-decoration: none;
+    color: #32332e;
+}
+
+.back a {
+    text-align: center;
+    border-radius: 12px;
+    border: 5px solid #a5adb8;
+    background: linear-gradient(to right,#a7b2b4,#e7ebee 170px);
+    margin-bottom: 20px;
+    padding: 0 32px;
+    text-decoration: none;
+    color: #32332e;
+    text-decoration: none;
+}

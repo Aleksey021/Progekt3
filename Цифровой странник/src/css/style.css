@@ -1,0 +1,102 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');*/
+
+* {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.input {
+    width: 330px; 
+    height: 46px; 
+}
+
+
+
+.rightimg  {
+float: right; /* Выравнивание по правому краю  */ 
+margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+}
+
+body {
+    background-image: url("../background.jpg");
+    background-size: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    height: 88vh;
+
+    display: flex;
+    font-family: 'Nerko One', cursive;
+    font-size: 4.9em;
+}
+
+.main-content {
+    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-text {
+    width: 100%;
+    text-align: center;
+}
+
+.login-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-login {
+    display: flex;
+    align-content: center;
+    height: 40%;
+}
+
+.password-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-password {
+    display: flex;
+    align-content: center;
+    height: 40%;
+}
+
+input {
+    height: 100%;
+}
+
+.enter-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    border-style: solid;
+}
+
+button {
+    font-family: 'Nerko One', cursive;
+    font-size: 1em;
+    color: indigo;
+    text-decoration: underline;
+    border-color: indigo;
+    border-style: solid;
+    background: #fff; /* запасной цвет для старых браузеров */
+    background: rgba(255, 255, 255, 0);
+}
